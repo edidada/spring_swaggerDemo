@@ -1,4 +1,4 @@
-package com.scan.controll;
+package cn.edidada.scan.controll;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -9,20 +9,15 @@ import io.swagger.annotations.ApiResponses;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import springfox.documentation.annotations.ApiIgnore;
-
 import com.alibaba.fastjson.JSONObject;
-import com.bean.Result;
-import com.bean.UserVo;
+import cn.edidada.bean.Result;
+import cn.edidada.bean.UserVo;
 
 @Controller
 @RequestMapping("/userController")

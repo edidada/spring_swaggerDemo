@@ -1,9 +1,8 @@
-package com.bean;
+package cn.edidada.bean;
 
-import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import io.swagger.annotations.ApiParam;
+
 @ApiModel(value="用户信息")
 public class UserVo {
 	private long id;
