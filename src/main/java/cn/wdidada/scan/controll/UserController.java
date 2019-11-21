@@ -1,4 +1,4 @@
-package cn.edidada.scan.controll;
+package cn.wdidada.scan.controll;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSONObject;
-import cn.edidada.bean.Result;
-import cn.edidada.bean.UserVo;
+import cn.wdidada.bean.Result;
+import cn.wdidada.bean.UserVo;
 
 @Controller
 @RequestMapping("/userController")

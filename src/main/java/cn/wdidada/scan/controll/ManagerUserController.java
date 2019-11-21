@@ -1,4 +1,4 @@
-package cn.edidada.scan.controll;
+package cn.wdidada.scan.controll;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

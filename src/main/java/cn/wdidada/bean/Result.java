@@ -1,4 +1,4 @@
-package cn.edidada.bean;
+package cn.wdidada.bean;
 
 import io.swagger.annotations.ApiModelProperty;
 

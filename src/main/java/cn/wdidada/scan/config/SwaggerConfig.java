@@ -1,4 +1,4 @@
-package cn.edidada.scan.config;
+package cn.wdidada.scan.config;
    
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-@ComponentScan(basePackages = {"cn.edidada.scan.controll"})
+@ComponentScan(basePackages = {"cn.wdidada.scan.controll"})
 @EnableWebMvc
 public class SwaggerConfig extends WebMvcConfigurationSupport {
 
